@@ -1,0 +1,15 @@
+
+/*---Reset Do css---*/
+*{
+  border: 0; /* borda do elemnto*/
+  margin: 0; /* distãncia dos elmentos*/
+  padding: 0; /* espaçamento interno--> zeramos*/
+  box-sizing: border-box; /* respeiar largura e altulra*/    
+}
+
+:root{
+  --color-
+}
+
+
+/* variações de css*/
