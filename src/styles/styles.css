@@ -55,5 +55,6 @@ main{
 }    
 .main-contend p{
     font-family: var(--font-familiy-primary);
-    color: var();
+    color: var(--color-gray);
+    line-height: ;
 }
