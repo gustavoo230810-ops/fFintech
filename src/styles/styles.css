@@ -5,7 +5,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 46px;
-border-bottom: 10px solid var(--color-primary);
+border-bottom: 10px solid var(--color-secondary);
 background-color: var(--color-secondary);
 }
 .container-header{
@@ -43,18 +43,50 @@ main{
     justify-content: center;
     align-items: center;
     gap: 50px;
-    width: 100px;    
+    background-color: var(--color-secondary);
+    padding: 50px 0;
 }
-.main-contend h1{
+.main-content{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: start;
+    color: var(--color-neutral-white);
+    width: 497px;
+}
+
+.main-content h1{
     font-size: var(--font-size-h1);
     font-family: var(--font-familiy-primary);
     font-weight: var(--font-weight-h1);
+    color: var(--color-neutral-white);
 }
-.main-contend h1 span{
+
+.main-content h1 span{
     color: var(--color-primary);
-}    
+}
+
 .main-contend p{
     font-family: var(--font-familiy-primary);
-    color: var(--color-gray);
-    line-height: ;
+    color: var(--color-neutral-white);
 }
+
+.btn-button{
+    display: flex;
+    gap: 10px;
+}
+
+.btn-primary{
+    border: 1px solid  var(--color-primary);
+    padding: 10px;
+    color: var(--color-neutral-white); 
+    
+}    
+.btn-primary:haver{
+    background-color: ;
+}
+.section{
+    background-color: ;
+}
+ 
+
