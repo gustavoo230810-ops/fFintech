@@ -8,8 +8,34 @@
 }
 
 :root{
-  --color-
+--color-primary: #9130F4; /*-- cor primaria*/
+--color-secondary: #121139; /*-- cor secundária*/
+--color-neutral-white: #F4F4F4; /*-- color natural white*/
+
+ /*--fontes*/
+  --font-size-h1: 54px;
+--font-size-h2: 45px;
+--font-size-h3: 35px;
+--font-size-h4: 30px;
+--font-zize-h5: 26px;
+--font-size-body: 16px;
+--font-size-button: 16px;
+--font-size-caption: 14px;
+
+--font-weight-h1: 700;
+--fot-weight-h2: 700;
+--font-weignt-h3: 700;
+--font-weignt-h4: 500;
+--font-weignt-h5: 500;
+--font-weignt-body:400:
+--font-weignt-button: 700;
+--font-weignt-caption: 400:
+  
+
+
+--font-family-primary "inter", sans-serif;
+
 }
 
 
-/* variações de css*/
+

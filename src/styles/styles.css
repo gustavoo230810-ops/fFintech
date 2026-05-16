@@ -1,5 +1,59 @@
-@import url(./global.css);
+@import url("./global.css");
 
 header{
-    background-color: var();
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 46px;
+border-bottom: 10px solid var(--color-primary);
+background-color: var(--color-secondary);
+}
+.container-header{
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+.navigation-header ul{
+    display: flex;
+    gap: 46px;
+    list-style: none;
+}
+.navigation-header ul li a{
+text-decoration: none;
+color: var(--color-neutral-white);
+font-family: var(--color-primary);
+}
+
+.navigation-header ul li .menu-active{
+    color: var(--color-neutral-white);
+}
+
+.btn-header{
+    color: var(--color-neutral-white);
+    font-family: var(--font-familiy-primary);
+    text-decoration: none;
+    background-color:var(--color-primary);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: var(--font-size-button);
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100px;    
+}
+.main-contend h1{
+    font-size: var(--font-size-h1);
+    font-family: var(--font-familiy-primary);
+    font-weight: var(--font-weight-h1);
+}
+.main-contend h1 span{
+    color: var(--color-primary);
+}    
+.main-contend p{
+    font-family: var(--font-familiy-primary);
+    color: var();
 }
