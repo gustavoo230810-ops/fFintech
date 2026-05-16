@@ -80,13 +80,40 @@ main{
     border: 1px solid  var(--color-primary);
     padding: 10px;
     color: var(--color-neutral-white); 
+    background-color: var();
     
 }    
-.btn-primary:haver{
-    background-color: ;
-}
-.section{
-    background-color: ;
-}
- 
 
+    
+
+.section-services{
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 100px;
+   padding: 60px 0;
+
+}
+
+.container-item-services{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 603px;
+}
+
+.container-item-services h2{
+    font-family: var(--font-familiy-primary);
+    font-size: var(font-size-h2);
+    font-weight: var(--font-weight-h2);
+    font-weight: var(--font-weight-h2);
+}
+.container-item-services span {
+    font-family: var(--font-familiy-primary);
+    color: var(--color-primary);
+}
+.container-item-services p {
+    font-family: var(--font-familiy-primary);
+    gap: 30px;
+}
